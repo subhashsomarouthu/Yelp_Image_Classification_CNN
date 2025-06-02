@@ -50,13 +50,13 @@ data_sorted/
 
 
 
----
+
 
 ## Model Architecture
 
 ### CNN Model (Final tuned version)
 
-```python
+python
 Input: (128, 128, 3)
 
 Conv2D(32, 3x3, ReLU) + MaxPool
